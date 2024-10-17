@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.front-promo-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 570px;
+    background-position: center;
+    color: white;
+    margin: 0px 0px 10px;
+}
+
+.iphone16p {
+    background-image: url(assets/img/iphone-16-pro/hero_iphone16pro_avail__fnf0f9x70jiy_medium.jpg);
+}
+
+.iphone16 {
+    background-image: url(assets/img/iphone-16/hero_iphone16_avail__euwzls69btea_medium.jpg);
+}
+
+.head-txt {
+    margin-top: 40px;
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.intel-text {
+    font-size: 28px;
+}

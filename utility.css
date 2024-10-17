@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'SF Pro';
+    src: url(../assets/fonts/SFPro.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro, sans-serif;
+    list-style: none;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+body a {
+    text-decoration: none;
+}
