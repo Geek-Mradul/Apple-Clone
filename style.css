@@ -15,14 +15,19 @@
     color: white;
     margin: 0px 0px 10px;
     position: relative;
+    text-align: center;
 }
 
 .iphone16p {
-    background-image: url(assets/img/iphone-16-pro/hero_iphone16pro_avail__fnf0f9x70jiy_medium.jpg);
+    background-image: url(assets/img/iphone-16-pro/hero_iphone16pro_avail__fnf0f9x70jiy_large.jpg);
 }
 
 .iphone16 {
-    background-image: url(assets/img/iphone-16/hero_iphone16_avail__euwzls69btea_medium.jpg);
+    background-image: url(assets/img/iphone-16/hero_iphone16_avail__euwzls69btea_large.jpg);
+}
+
+.submerged {
+    background-image: url(assets/img/tv-plus-submerged/hero_submerged__ggmwr8ff2fe6_large.jpg);
 }
 
 .head-txt {
@@ -71,4 +76,33 @@
 .ai-callout {
     font-size: 14px;
     color: #86868b;
+}
+
+.submerged-info {
+    position: absolute;
+    bottom: 7%;
+    font-size: 28px;
+}
+
+.submerged-info div {
+    margin: 10px;
+}
+
+.submerged-info button {
+    outline: none;
+    border: none;
+    background: #fff;
+    color: #000;
+    font-size: 17px;
+    padding: 11px 18px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.submerged-info a {
+    color: #fff;
+    font-size: 17px;
+    padding: 0px 18px;
+    cursor: pointer;
+    position: relative;
 }
