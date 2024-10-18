@@ -14,6 +14,7 @@
     background-position: center;
     color: white;
     margin: 0px 0px 10px;
+    position: relative;
 }
 
 .iphone16p {
@@ -32,4 +33,42 @@
 
 .intel-text {
     font-size: 28px;
+}
+
+.promo-bottom-box {
+    position: absolute;
+    bottom: 8%;
+    text-align: center;
+}
+
+.promo-bottom-box div {
+    margin: 20px;
+}
+
+.learn-more {
+    outline: none;
+    border: none;
+    background: #0071E3;
+    color: white;
+    font-size: 17px;
+    padding: 11px 18px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.buy-btn {
+    margin-left: 15px;
+    outline: none;
+    border: solid 1.5px #0071E3;
+    background: none;
+    color: #0071E3;
+    font-size: 17px;
+    padding: 11px 18px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.ai-callout {
+    font-size: 14px;
+    color: #86868b;
 }
