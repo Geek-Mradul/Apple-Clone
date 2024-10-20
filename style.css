@@ -51,7 +51,7 @@
     height: 570px;
     background-position: center;
     color: white;
-    margin: 0px 0px 10px;
+    margin: 0px 0px 12px;
     position: relative;
     text-align: center;
 }
@@ -143,4 +143,55 @@
     padding: 0px 18px;
     cursor: pointer;
     position: relative;
+}
+
+.promo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 0px 12px 12px;
+}
+
+.promo-card {
+    height: 575px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    /* margin: 0px 10px 10px 0px; */
+}
+
+.airpods-4 {
+    background-size: cover;
+    background-position: top;
+    background-image: url(assets/img/airpods-4/promo_airpods_4_avail__bl22kvpg6ez6_medium.jpg);
+}
+
+.ipad-mini {
+    background-size: cover;
+    background-position: top;
+    background-image: url(assets/img/ipad-mini/promo_ipad_mini_announce__dnt5vgkh34uq_medium.jpg);
+}
+
+.apple-watch-10 {
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(assets/img/apple-watch-series-10/promo_apple_watch_series_10_avail_lte__c70y29goir42_medium.jpg);
+}
+
+.apple-watch-ultra-2 {
+    background-size: cover;
+    background-position: top;
+    background-image: url(assets/img/apple-watch-ultra-2/promo_apple_watch_ultra2_avail__dyawbjw9cowi_medium.jpg);
+}
+
+.iphone-tradein {
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(assets/img/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium.jpg);
+}
+
+.apple-card {
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(assets/img/apple-card/promo_apple_card__5cm7draujpey_medium.jpg);
 }
